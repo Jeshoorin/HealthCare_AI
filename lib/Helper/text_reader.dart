@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 Future<Map> apiRequest(String s) async {
-  String url = "http://192.168.1.4:5000";
+  String url = "http://10.0.2.2:5000";
   // HttpClient httpClient = new HttpClient();
   print('hi from apiRequest $s');
   // String testURL = 'https://firebasestorage.googleapis.com/v0/b/fir-setup-e0cff.appspot.com/o/DummyTest%2Fsample_rep.jpg?alt=media&token=7edb254e-78b7-40ec-abe7-cc04431c151a';

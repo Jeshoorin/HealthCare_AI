@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var indexCurr = 0;
+  var indexCurr = 1;
 
   void pageBuilder(int index) {
     setState(() {
